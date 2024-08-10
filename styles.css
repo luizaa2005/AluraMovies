@@ -1,0 +1,58 @@
+body { 
+    color: #1329cc;
+    background: #98dadb;
+    margin: 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(214 214 177);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(247 247 47)
+}
+
+.chamada {
+    background: #0ea7aa;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 45px;
+}
+p {
+    font-size: 21px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 180px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: #ecec3c
+}
